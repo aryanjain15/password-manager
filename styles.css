@@ -1,0 +1,61 @@
+*{
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+
+}
+p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+h1{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+body {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151b29;
+}
+
+button {
+    position: absolute;
+    background: none;
+    color:#ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+    font-family: 'Playfair Display', serif !important;
+    top: 30%;
+    left: 50%;
+}
+
+button:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+a{
+    font-family: 'Roboto Mono', monospace;
+}
+p:hover{
+    text-decoration: underline;
+}
+.git{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+}
+a{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+}
+
